@@ -1,0 +1,6 @@
+services:
+  example:
+    build:
+      context: ./
+    image: scip_ts_error_example:latest
+    entrypoint: /bin/bash
